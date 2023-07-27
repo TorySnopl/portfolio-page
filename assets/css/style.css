@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+ }
 
 .nav a{
     text-decoration: none;
@@ -91,6 +91,14 @@ border: 2px solid black;
 }
 
 /* Pseudo elements */
+
+.nav li:hover {
+    background-color: rgba(255, 255, 255, 0.312);
+}
+
+.nav li:active {
+    text-decoration: underline;
+}
 
 .about:hover {
     background-color: rgb(6, 84, 1);
