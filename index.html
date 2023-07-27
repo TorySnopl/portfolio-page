@@ -9,26 +9,41 @@
 <!-- Header -->
 <header class="header">
     <h1>Tory Snopl Portfolio Page</h1>
-    <img src="assets/images/IMG_7841.jpeg" alt="man and his wife dressed nicely outdoors">
+    <img src="assets/images/IMG_7841.jpeg" style="max-height: 300px" alt="man and his wife dressed nicely outdoors">
     <nav class="nav">
         <ul>
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Resume</li>
-            <li>Contact Me</li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="assets/images/coming-soon.png">Resume</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
 </header>
-
+<!--About Us-->
 <body>
-    <Section class="about">
+    <Section id="about" class="about">
         <h2>About Me</h2>
         <P>My name is Tory and I am thankful you have taken the time to read this. I have been married for nearly 12 years and love living in the PNW. My free time is usually spent with my wife, at Providence Park cheering on the Timbers and Thorns, or volunteering. My entire professional career has been focused on helping people. I worked as and EMT assisting people during the worst moments of their lives. Now as a web developer I am looking forward to making user friendly, accessible, and enjoyable applications for every day life.</P>
     </Section>
-
-    <Section class="Projects">
-        
+<!--Projects-->
+    <Section id="projects" class="projects">
+        <article class="project1"><img src="assets/images/coming-soon.png"></article>
     </Section>
+<!--Contact Us-->
+    <section id="contact" class="contact">
+        <form class="fill">
+            <input type="text" id="fname" placeholder="First Name">
+            <input type="text" id="lname" placeholder="Last Name">
+            <input type="text" id="email" placeholder="Email">
+            <label for="dropdown">Reason for Contact:</label>
+            <select id="dropdown" name="dropdown">
+                <option value="fun">For Fun</option>
+                <option value="bootcamp">For Bootcamp</option>
+                <option value="work">For Work</option>
+            </select> 
+         </form>
+
+    </section>
     
     
 </body>
