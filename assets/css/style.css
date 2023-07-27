@@ -1,11 +1,12 @@
 .header {
-    background-color: rgb(6, 84, 1);
-    color: wheat;
-    font-family: baskerville, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #3a653a;
+    color: #b6864b;
+    font-family: futura, brooklyn, sans-serif;
     display: flex;
+    
 }
 
-.header h1 {
+.header h2 {
     padding: 5px;
     margin: 0px;
     position: absolute;
@@ -34,14 +35,14 @@
     text-decoration: none;
     display: flex;
     margin: 0 10px;
-    color: wheat;
+    color: #b6864b;
 }
 /* About */
 .about {
     width: 50vw;
     position: absolute;
     right: 20%;
-    border: 5px solid wheat;
+    border: 5px solid #b6864b;
     margin: 10px 0;
     display: flex;
     flex-direction: column;
@@ -72,7 +73,7 @@
     flex-direction: column;
     align-self: flex-end;
     width: 28vw;
-    border: 5px solid gray;
+    border: 5px solid #37647a;
     padding: 5px;
     font-family: baskervilel, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
@@ -93,7 +94,7 @@ border: 2px solid black;
 /* Pseudo elements */
 
 .nav li:hover {
-    background-color: rgba(255, 255, 255, 0.312);
+    background-color: #37647a;
 }
 
 .nav li:active {
@@ -101,9 +102,9 @@ border: 2px solid black;
 }
 
 .about:hover {
-    background-color: rgb(6, 84, 1);
-    color: wheat;
-    border-color: black;
+    background-color: #3a653a;
+    color: #b6864b;
+    border-color: #37647a;
     cursor: help;
     transition: 0.5s;
     transition-property: background-color;
