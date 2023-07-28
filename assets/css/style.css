@@ -1,4 +1,4 @@
-
+/* Header */
 .header {
     background-color: #3a653a;
     background-image: url('../images/me.jpg');
@@ -73,8 +73,7 @@
     padding: 5px;
     font-family: futura, brooklyn, sans-serif;
     font-size: medium;
-    position: absolute;
-    left: 48.25%;
+    margin-left: 48.25%;
     
 }
 
@@ -113,6 +112,92 @@ border: 2px solid #37647a;
     transform: rotate(2deg);
 }
 
+/* Media Quieries */
+
+@media screen and (max-width:1286px) {
+    .project1img {
+        width: 500px;
+    }
+}
+/* breakpoint added to maintain border on projects section*/
+@media screen and (max-width:1082px) {
+    .project1img {
+        width: 350px;
+    }
+}
+/* header picture resized and moved and elements moved to left*/
+@media screen and (max-width:768px ) {
+    .header {
+        background-position: top right;
+        background-size: 30%;
+    }
+
+    .about{
+        margin-left: 0%;
+    }
+    .project1{
+        margin-left: 0%;
+    }
+    .project1img {
+        width: 200px;
+
+    }
+    .fill {
+        margin-left: 0%;
+    }
+    
+}
+/* Header image resized and added burger menu for easier navigation*/
+@media screen and (max-width:480px) {
+    .header {
+        width: 100%;
+        background-size: 50%;
+    }
+
+    .nav {
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url('../images/burger.png') no-repeat bottom center;
+        cursor: pointer;
+    }
+
+    .nav ul {
+        overflow: hidden;
+        background: #b6864b;
+        height: 0;
+    }
+
+    .nav ul.open{
+        height: auto;
+    }
+
+    .nav ul li {
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav a {
+        color: #37647a;
+        padding: 10px;
+        border-bottom: 1px solid #3a653a;
+        display: block;
+        margin: 0;
+    }
+
+    .about {
+        width: 100%;
+        margin-top: 150px;
+    }
+    .project1 {
+        width: 100%;
+    }
+    .fill {
+        width: 100%;
+    }
+}
 
 
 
