@@ -57,12 +57,30 @@
     padding: 5px;
 }
 /* Projects*/
-.project1 {
- border: 5px solid #b6864b;
- margin: 10px;
- margin-right: 51.25%;
-
+.projectimg {
+    float: left;
+    width: 25%;
+    padding: 10%;
 }
+
+.projectimg img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #37647a;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
 /* Form */
 .fill {
     display: flex;
@@ -74,6 +92,7 @@
     font-family: futura, brooklyn, sans-serif;
     font-size: medium;
     margin-left: 48.25%;
+    margin: 50px;
     
 }
 
@@ -108,23 +127,23 @@ border: 2px solid #37647a;
     
 }
 
-.project1:hover {
-    transform: rotate(2deg);
+.projectimg img:hover {
+    opacity: 1;
 }
 
+.projects::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* Media Quieries */
 
 @media screen and (max-width:1286px) {
-    .project1img {
-        width: 500px;
-    }
+
 }
 /* breakpoint added to maintain border on projects section*/
 @media screen and (max-width:1082px) {
-    .project1img {
-        width: 350px;
-    }
-}
+
 /* header picture resized and moved and elements moved to left*/
 @media screen and (max-width:768px ) {
     .header {
@@ -135,13 +154,7 @@ border: 2px solid #37647a;
     .about{
         margin-left: 0%;
     }
-    .project1{
-        margin-left: 0%;
-    }
-    .project1img {
-        width: 200px;
-
-    }
+   
     .fill {
         margin-left: 0%;
     }
