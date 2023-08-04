@@ -34,11 +34,21 @@
     </Section>
 <!--Projects-->
     <Section id="projects" class="projects">
-        <article class="project1"><img class="project1img" src="assets/images/coming-soon.png" style="max-width: 50vw;"></article>
+        <article class="projectimg" id="p1"><img src="assets/images/rpsls.png" alt="Rock Paper Scissors Lizard Spock Game" style="max-width: 300px;" onclick="myFunction(this);"></article>
+
+        <article class="projectimg" id="p2"><img src="assets/images/coming-soon.png" alt="future project" style="max-width: 300px;" onclick="myFunction(this);"></article>
     </Section>
+
+    <section class="container">
+        <span onclick="this.parentElement.style.display = 'none'" class="closebtn">(&times;)</span>
+        
+        <img id="expandedImg" style="width: 100%">
+
+    </section>
+
 <!--Contact Us-->
     <section id="contact" class="contact">
-        <form action="" class="fill">
+        <form action="" class="fill" id="fill">
             <h2>Contact Me</h2>
             <input type="text" id="fname" placeholder="First Name">
             <input type="text" id="lname" placeholder="Last Name">
@@ -49,7 +59,7 @@
                 <option value="bootcamp">For Bootcamp</option>
                 <option value="work">For Work</option>
             </select> 
-            <input type="submit" id="submit" onclick="alert('I look forward to meeting you!')" style="color: #37647a;">
+            <input type="submit" id="submit"  onclick="alert('I look forward to meeting you!')" style="color: #37647a; ">
          </form>
 
     </section>
