@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Tory Snopl Portfolio Page</title>
 </head>
@@ -19,7 +26,7 @@
         
             <ul>
                 <li><a href="#about">ABOUT ME</a></li>
-                <li><a href="#projects">WORK</a></li>
+                <li><a href="#carouselExampleCaptions">WORK</a></li>
                 <li><a href="assets/images/coming-soon.png">RESUME</a></li>
                 <li><a href="#contact">CONTACT ME</a></li>
             </ul>
@@ -33,18 +40,50 @@
         <P>My name is Tory and I am thankful you have taken the time to read this. I have been married for nearly 12 years and love living in the PNW. My free time is usually spent with my wife, at Providence Park cheering on the Timbers and Thorns, or volunteering. My entire professional career has been focused on helping people. I worked as and EMT assisting people during the worst moments of their lives. Now as a web developer I am looking forward to making user friendly, accessible, and enjoyable applications for every day life.</P>
     </Section>
 <!--Projects-->
-    <Section id="projects" class="projects">
-        <article class="projectimg" id="p1"><img src="assets/images/rpsls.png" alt="Rock Paper Scissors Lizard Spock Game" style="max-width: 300px;" onclick="myFunction(this);"></article>
-
-        <article class="projectimg" id="p2"><img src="assets/images/coming-soon.png" alt="future project" style="max-width: 300px;" onclick="myFunction(this);"></article>
-    </Section>
-
-    <section class="container">
-        <span onclick="this.parentElement.style.display = 'none'" class="closebtn">(&times;)</span>
+<div id="carouselExampleCaptions" class="carousel carousel-dark w-50 m-auto">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" class="btn" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" class="btn" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" class="btn custom-color" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+     
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="assets/images/rpsls.png" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/Password.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
         
-        <img id="expandedImg" style="width: 100%">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/code_quiz.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/scheduler.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+       
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    </section>
 
 <!--Contact Us-->
     <section id="contact" class="contact">
@@ -64,9 +103,10 @@
 
     </section>
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script></script>
 </body>
-<!-- JS Code added with the help of net ninja on Youtube-->
-<script src="assets/js/source.js"></script>
-<script src="assets/js/menu.js"></script>
+
+
 </html>
