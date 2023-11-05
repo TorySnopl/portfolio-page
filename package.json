@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "description": "The challenge this week was to creeate a portfolio page that will be a demonstration of the skills aquired during bootcamp. This of course is only the beginning stages of the deployed application as there aren't any projects to show off yet. There is a placeholder where the projects will go.  ## The Criteria > A portfolio page with the developers name, photo, and links to sections about them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
