@@ -1,0 +1,35 @@
+.main button{
+    text-align: center;
+    background-color: black;
+    background-image: url('../images/deer.jpeg');
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.main a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "press start 2p", serif;
+    color: white;
+    cursor: crosshair;
+    
+}
+
+body{
+    background-image: url('../images/hunting.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main button:hover{
+    animation: bounce;
+    animation-duration: 0.10s;
+    cursor: crosshair;
+}
+
+.main a:active, button:active{
+    background-image: url('../images/deadDeer.jpg');
+}
+

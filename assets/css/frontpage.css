@@ -1,6 +1,7 @@
 body {
     background-image: url('/assets/images/oregonTrail.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -31,3 +32,5 @@ h1{
     border: 2px dashed black;
     cursor: pointer;
 }
+
+.submit:
