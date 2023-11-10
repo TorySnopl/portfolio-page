@@ -21,6 +21,7 @@ body{
     background-image: url('../images/hunting.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
 .main button:hover{
