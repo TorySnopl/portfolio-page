@@ -1,5 +1,5 @@
 body {
-    background-image: url('assets/images/oregonTrail.png');
+    background-image: url('../images/oregonTrail.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
