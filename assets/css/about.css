@@ -8,6 +8,7 @@ h1 {
     font-size: 35px;
     color: white;
     text-align: center;
+    margin-top: 5%;
 }
 
 p{
@@ -15,7 +16,9 @@ p{
     font-size: 25px;
     color: white;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 7%;
+    letter-spacing: .5px;
+    line-height: 1.5;
 }
 
 .directory{
