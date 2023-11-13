@@ -5,7 +5,7 @@ resume.classList.add('hide');
  function displayText(){
     setTimeout(function(){
         resume.classList.remove('hide');
-    },14000);
+    },14500);
  }
  
  window.onload = displayText
