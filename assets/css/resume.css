@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+.resume {
+    font-size: 14px;
+    font-family: 'press start 2p', serif;
+    color: white;
+    line-height: 1.5;
+    margin-top: 50px;
+
+}
+
+.hide{
+    display: none;
+}
