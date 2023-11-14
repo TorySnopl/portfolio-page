@@ -34,3 +34,47 @@ h1{
     cursor: pointer;
 }
 
+
+/*Media*/
+
+@media (max-width: 1500px) {
+    h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1000px) {
+    h1{
+        font-size: 25px;
+    }
+    .submit{
+        margin-left: 30%;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 800px) {
+    h1{
+        font-size: 18px;
+    }
+    .submit{
+        margin-left: 30%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+ 
+
+    h1{
+        font-size: 14px;
+    }
+
+    .submit{
+        margin-left: 34.75%;
+        font-size: 12px;
+    }
+}
+
+
+
