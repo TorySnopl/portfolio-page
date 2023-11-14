@@ -76,5 +76,23 @@ h1{
     }
 }
 
+@media (max-width: 400px) {
+    body{
+        background-position: (center, center);
+        background-repeat: repeat;
+    }
+
+    h1{
+        font-size: 14px;
+    }
+
+    .submit{
+        margin-top: 90%;
+        margin-left: 26%;
+        font-size: 12px;
+    }
+}
+
+
 
 
