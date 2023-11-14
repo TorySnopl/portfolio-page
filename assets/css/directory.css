@@ -34,3 +34,18 @@ body{
     background-image: url('../images/deadDeer.jpg');
 }
 
+
+@media (max-width:1200px ){
+    .main button{
+        margin-top: 65%;
+        margin-left: 8%;
+    }
+}
+
+
+@media (max-width:1050px ){
+    .main button{
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+}
