@@ -55,3 +55,58 @@ input::placeholder{
 textarea::placeholder{
     font-family: "press start 2p", serif;
 }
+
+@media (max-width: 800px){
+    body{
+        background-size: 800px;
+    }
+
+    h1{
+        font-size: 35px;
+        margin-top: 68%;
+        color: white;
+    }
+
+    form{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+}
+
+
+@media (max-width: 500px){
+    body{
+        background-size: 500px;
+    }
+
+    h1{
+        font-size: 35px;
+        margin-top: 75%;
+        color: white;
+    }
+
+    form{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 400px){
+    body{
+        background-size: 450px;
+    }
+
+    h1{
+        font-size: 35px;
+        margin-top: 75%;
+        color: white;
+    }
+
+    form{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+}

@@ -13,7 +13,7 @@ function sendMail(event) {
       .then(res => {
         console.log(res)
         alert ("I will be in touch soon! "+ res.status);
-        location.reload();
+        location.replace('../views/directory.html');
       
       }).catch(err => {console.error(err)});
   
